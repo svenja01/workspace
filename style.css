@@ -1,4 +1,16 @@
 /*Styleshhet */
+html{
+    height: 101%;
+}
+
+
+
+body {
+    background: deeppink;
+}
+
+
+
 section {
     background: blueviolet !important;
 }
