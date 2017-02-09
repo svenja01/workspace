@@ -14,3 +14,15 @@ body {
 section {
     background: blueviolet !important;
 }
+.s1 {
+    background: gold;
+}
+.s2 {
+    background:cadetblue;
+}
+.s3 {
+    background:forestgreen;
+}
+#a1 {
+    background: red;
+}
