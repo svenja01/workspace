@@ -2,6 +2,6 @@ body {
     background-color: #8c8c8c;
     color: white;
 }
-#header >p >span {
+section>#header>p>span {
     color: #d90000;
 }
