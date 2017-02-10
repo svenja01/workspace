@@ -9,11 +9,9 @@ body {
     transform: scale(1.25);
     background-size: cover;
     background-position: center;
-    background-origin: padding, content;
     height: 100%;
     overflow: scroll;
     background-attachment: fixed;
-    background-clip: padding;
 }
 section > header > p > span {
     color: #d90000;
