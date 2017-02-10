@@ -2,15 +2,9 @@
 html{
     height: 101%;
 }
-
-
-
 body {
     background: deeppink;
 }
-
-
-
 section {
     background: blueviolet !important;
 }
@@ -23,9 +17,18 @@ section {
 .s3 {
     background:forestgreen;
 }
+
 #a1 {
     background: red;
 }
 #f1 {
     background: blue;
+}
+
+* {
+    background: coral;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(violet));
+    background-image: -webkit-linear-gradient(top, blue, violet);
+    background-image: -moz-linear-gradient(top, blue, violet);
+    background-image: linear-gradient(to bottom, bluer, violet);
 }
