@@ -41,6 +41,6 @@ section > article > header > figure > img:not(.blue){
        border: 5px solid black;
        max-width: 300px;
        }
-section > article > header > figure > img:first-child{
-    width: 200px;
+section > article > header > figure:first-child{
+    width: 300px !important;
 }
