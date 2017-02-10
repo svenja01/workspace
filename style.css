@@ -1,9 +1,18 @@
 /*Styleshhet */
+@import url()
+#wrapper {
+    max-width: 75%;
+    margin: 30px auto;
+}
 html{
-    height: 101%;
+    height: 101%; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster';
 }
 body {
     background: deeppink;
+    front-family: 'Droid Sans';
 }
 section {
     background: blueviolet !important;
@@ -41,6 +50,6 @@ section > article > header > figure > img:not(.blue){
        border: 5px solid black;
        max-width: 300px;
        }
-section > article > header > figure:first-child{
+section > article > header > figure:nth-child(2) > img{
     width: 300px !important;
 }
