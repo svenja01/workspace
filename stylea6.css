@@ -34,3 +34,9 @@ section#container {
     width: 100%;
     max-width: 420px;
 }
+h1{
+    font-size: 150%
+}
+h2 {
+    font-size: 130%;
+}
