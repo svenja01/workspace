@@ -1,7 +1,15 @@
 /*Styleshhet */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
+i.fa {
+    background: blue;
+}
+/*figure {
+    padding: 0;
+    margin: 0;
+} 
+um das Bild linksbündig zu machen
+*/
 
 html{
     height: 101%; 
@@ -27,7 +35,7 @@ section {
     background:cadetblue;
 }
 .s3 {
-    background:forestgreen;
+    background:blue;
 }
 
 #a1 {
