@@ -28,3 +28,6 @@ p {
 a {
     font-size: 2ren;
 }
+* {
+    box-sizing: border-box;
+}

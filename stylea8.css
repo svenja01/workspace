@@ -1,0 +1,17 @@
+.main {
+    width: 75%;
+    padding: 1em;
+    background-color: #334c5c;
+    float: left;
+    color: white;
+    box-sizing: content-box;
+}
+.sidebar {
+    width: 25%;
+    padding: 1em;
+    background-color: #334c5c;
+    float: left;
+    color: white;
+    box-sizing: content-box;
+
+}
