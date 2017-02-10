@@ -19,3 +19,15 @@ section#container {
     border-radius: 7px;
     box-shadow: 10px 10px 5px #888888;
 }
+#header {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+#logo {
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 100%;
+    max-width: 420px;
+}
