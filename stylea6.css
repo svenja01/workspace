@@ -4,6 +4,16 @@ body {
     font-family: Roboto, Calibri, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-size:1rem;
+    background-image:url(images/hintergrund.jpg);
+    /*background-repeat: no-repeat;*/
+    transform: scale(1.25);
+    background-size: cover;
+    background-position: center;
+    background-origin: padding, content;
+    height: 100%;
+    overflow: scroll;
+    background-attachment: fixed;
+    background-clip: padding;
 }
 section > header > p > span {
     color: #d90000;
@@ -19,8 +29,8 @@ section#container {
     background-color: white;
     color: black;
     width: 70%;
-    border-radius: 7px;
-    box-shadow: 10px 10px 5px #888888;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #888888;
 }
 #header {
     background-color: white;
@@ -46,4 +56,6 @@ address {
 						    font-style: normal;	/* normale Schrift, nicht kursiv */
 						    letter-spacing: 2px; /* Abstand zwischen den Buchstaben */
 						    line-height: 1.5; /* Zeilenabstand, ohne Einheit */
+                            /*font-style: italic; kursiv*/
+                            /*font-weight: bold; fett*/
 						}
