@@ -5,3 +5,10 @@ body {
 section > header > p > span {
     color: #d90000;
 }
+p.infobox {
+    color: white;
+    background-color: #8c8c8c;
+    border: 3px solid #ecf7dd;
+    border-radius: 5px;
+    text-align: center;
+}
