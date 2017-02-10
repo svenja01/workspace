@@ -1,14 +1,17 @@
 /*Styleshhet */
-@import url()
-#wrapper {
-    max-width: 75%;
-    margin: 30px auto;
-}
+@import url('<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
 html{
     height: 101%; 
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lobster';
+}
+#wrapper {
+    max-width: 75%;
+    margin: 30px auto;
 }
 body {
     background: deeppink;
