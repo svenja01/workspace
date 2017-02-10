@@ -11,10 +11,9 @@
     padding: 1em;
     background-color: blueviolet;
     float: left;
-    color: white;
-   
+    color: white;}
 
-}
+
 .eins { background-color: #99B1D7;
         color: #FFF; 
         width: 400px;
@@ -38,7 +37,7 @@
 				 display: inline;
 				 list-style-type: none;
 				 color: white;
-				 background-color: blue;
+				 background-color: green;
 				 margin-left: 0;
 				 padding: 10px;
-						}
+				}
