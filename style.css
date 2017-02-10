@@ -34,7 +34,7 @@ section {
     border: 1px
 }
 
-section > article > figure > img {
+section > article > header > figure > img:not(.blue){
        background: olivedrab;
        border-radius: 20px;
        border: 5px solid black;
