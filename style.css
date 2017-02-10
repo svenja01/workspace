@@ -33,3 +33,10 @@ section {
     background-image: linear-gradient(to bottom, blue, violet);
     border: 1px
 }
+
+section > article > figure > img {
+       background: olivedrab;
+       border-radius: 20px;
+       border: 5px solid black;
+       max-width: 300px;
+        }
