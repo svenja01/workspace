@@ -40,3 +40,10 @@ h1{
 h2 {
     font-size: 130%;
 }
+address {
+						    text-align: center; /* Text zentrieren */
+						    font-size: 80%; /* etwas kleiner als der Rest */
+						    font-style: normal;	/* normale Schrift, nicht kursiv */
+						    letter-spacing: 2px; /* Abstand zwischen den Buchstaben */
+						    line-height: 1.5; /* Zeilenabstand, ohne Einheit */
+						}
