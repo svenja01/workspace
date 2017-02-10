@@ -1,9 +1,9 @@
 body {
     background-color: #8c8c8c;
     color: white;
-    front-family: Roboto, Calibri, Arial, Helvetica, sans-serif;
-    front-size: 16px;
-    front-size:1rem;
+    font-family: Roboto, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-size:1rem;
 }
 section > header > p > span {
     color: #d90000;
