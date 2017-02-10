@@ -24,6 +24,7 @@ section {
 #f1 {
     background: blue;
 }
+/*Stern steht für Universal */
 
 * {
     background: coral;
@@ -39,4 +40,7 @@ section > article > header > figure > img:not(.blue){
        border-radius: 20px;
        border: 5px solid black;
        max-width: 300px;
-        }
+       }
+section > article > header > figure > img:first-child{
+    width: 200px;
+}
