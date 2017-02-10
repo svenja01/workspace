@@ -6,11 +6,9 @@ body {
     font-size:1rem;
     background-image:url(images/hintergrund.jpg);
     /*background-repeat: no-repeat;*/
-    transform: scale(1.25);
     background-size: cover;
     background-position: center;
     height: 100%;
-    overflow: scroll;
     background-attachment: fixed;
 }
 section > header > p > span {
