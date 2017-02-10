@@ -1,0 +1,7 @@
+a:hover, a:focus {
+    border-bottom: 1px solid #d90000;
+}
+a:active {
+    color: white;
+    background-color: #900000;
+}

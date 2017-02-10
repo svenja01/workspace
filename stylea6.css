@@ -32,6 +32,10 @@ section#container {
     background-color: white;
     color: black;
     text-align: center;
+    background-image:url('https://ict-berufsbildung.info/pluginfile.php/9344/mod_resource/content/35/images/top-secret.gif') !important;
+    background-repeat: no-repeat;
+    
+    background-position: top right;
 }
 #logo {
     background-color: white;
