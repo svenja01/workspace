@@ -1,3 +1,6 @@
+.hide {
+    display: none;
+}
 body {
     background-color: #8c8c8c;
     color: white;
@@ -66,4 +69,24 @@ a:hover, a:focus {
 a:active {
     color: white;
     background-color: #900000;
-}                        
+}     
+#box {
+    background-color: lightgrey;
+    box-sizing: content-box !important;
+    padding: 20px;
+    border: 2px solid blue; /*gibta auch dotted und dashed*/
+    margin: 1rem;
+    
+}                   
+.box1{
+    background-color: deeppink;
+    color: white;
+    box-sizing: content-box !important; /*Rahmenn hinzufügen verändert grösse um breite des rahmens, mit border-box bleibt die Breite stabil*/
+    padding: 1rem;
+    border: 2px solid white;
+    height: 1000px;
+
+}
+p {
+    line-height: 1.5;
+}
