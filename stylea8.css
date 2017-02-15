@@ -1,10 +1,11 @@
 .main {
-    width: 75%;
+    width: 25%;
     padding: 1em;
     background-color: deeppink;
     float: left;
     color: white;
-    height: 10px;
+    height: 500px;
+    
    
 }
 .sidebar {
@@ -12,14 +13,25 @@
     padding: 1em;
     background-color: blueviolet;
     float: left;
-    color: white;}
+    color: white;
+    width: 50%;
+    height: 500px;
+    }
+.drei {
+    padding: 1em;
+    background-color: lightblue;
+    float: left;
+    width: 25%;
+    height: 500px;
 
+}
 
 .eins { background-color: #99B1D7;
         color: #FFF; 
         width: 400px;
         display: inline;
         padding: 20px;
+       
         }
 .zwei { background-color: #456188;
         color: #FFF; 

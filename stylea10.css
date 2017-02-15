@@ -1,0 +1,33 @@
+.eins {
+		background-color: #99B1D7;
+		width: 400px;
+		display: inline-block;
+		padding: 20px;
+		
+							}
+.zwei {
+	    background-color: #456188;
+	    width: 400px;
+		display: block;
+		padding: 20px;
+							}
+#inlineblock a { 
+			background-color: red; 
+			width: 400px; 
+			display: block; 
+			color: white;
+		}
+#inlineblock ul { 
+				margin-top: 30px; 
+	}
+#inlineblock li { 
+				display: inline-block;
+				list-style-type: none;
+				color: white;
+				background-color: blue;
+				margin-left: 0;
+				padding: 10px;
+			}
+.ib {
+				display: inline-block;
+			}
