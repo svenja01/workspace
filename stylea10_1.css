@@ -1,0 +1,60 @@
+section#container {
+    background-color: white;
+    color: black;
+    width: 70%;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+address {
+						    text-align: center; /* Text zentrieren */
+                            margin-top: 20px;
+						    font-size: 80%; /* etwas kleiner als der Rest */
+						    font-style: normal;	/* normale Schrift, nicht kursiv */
+						    letter-spacing: 2px; /* Abstand zwischen den Buchstaben */
+						    line-height: 1.5; /* Zeilenabstand, ohne Einheit */
+                            /*font-style: italic; kursiv*/
+                            /*font-weight: bold; fett*/
+						}
+
+
+  
+.footer {
+    padding-top: 20px;
+    border-top: 1px dotted #8c8c8c;
+    margin-top: 20px;
+}
+ul li { list-style-type: square; }
+ol li { list-style-type: decimal; }
+ol ol li { list-style-type: lower-alpha; }
+
+nav {
+    border-bottom: 1px dotted #ccc;
+    border-top: 1px dotted #ccc;
+    background-color: #fcfcfc;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+nav ul {
+    padding: 0;
+}
+
+nav a {
+    color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+nav a:hover, nav a:focus {
+    color: #fff;
+    background-color: #d90000;
+}
+nav a:active {
+    color: white;
+    background-color: black;
+    border-color: #fff;
+}
