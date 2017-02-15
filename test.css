@@ -1,0 +1,55 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.hide {
+    display: none;
+}
+.mr5{
+margin-right: 5px !important;
+}
+/*#hyperlinks a,
+#hyperlinks a:visited {
+    text-decoration: none;
+    
+}
+#hyperlinks a:hover {
+    background-color: deeppink;
+}
+#hyperlinks a:focus,
+#hyperlinks a:active
+{
+    background-color: darkred;
+}*/
+#hyperlinks a,
+ {
+    text-decoration: none; 
+}
+.btn:hover {
+    opacity: 1;
+}
+.btn-primary {
+    color: white;
+    background-color:pink;
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+.btn {
+    padding: 9px 20px;
+    border-radius: 2px;
+    opacity: 0.8; /*20% Transparenz*/
+}
+.btn-info {
+        color: white;
+    background-color: cadetblue;
+}
+
+.block{
+    display: block;
+
+}
+.inline{
+    display: inline;
+}
+.text-center{
+    text-align: center;
+}
