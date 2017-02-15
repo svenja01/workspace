@@ -35,23 +35,3 @@
 
 
 
-#container {
-						    background-color: white;
-						    color: black;
-						    width: 70%;	/* Optional-> width: 960px; */
-						    border-radius: 7px;	/* Ecken abgerundet */
-						    margin-top: 30px;
-						    margin-right: auto; /* Abstand rechts */
-						    margin-bottom: 10px;
-						    margin-left: auto; /* Abstand links */
-						}
-
-						footer {
-						    Innenabstand oben: 20px; /* unterhalb Rahmenlinie */
-						    Rahmenlinie oben: 1px dotted #8c8c8c; /* Linie oben */
-						    Aussenabstand oben: 20px; /* oberhalb Linie */
-						}
-
-						address {
-						    Aussenabstand oben: 20px;
-						}
