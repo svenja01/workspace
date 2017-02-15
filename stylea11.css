@@ -87,3 +87,38 @@ body {
 h1, h2 {
     font-family: 'Barrio', cursive;
 }
+div#inlineblock {
+    display: none;
+}
+/*
+#first, #second, #third {
+						    background-color: #9C27B0;
+						    border: 3px solid blue;
+						    margin: 15px 0px;
+						    border-radius: 10px;
+						    color: weiss;
+                            position: static;
+                            width: 20%;
+						}
+ #first {
+							position: absolute; /* Position relativ *
+							    top: 50%; /* Abstand zu Oberkante des Elternelements *
+							    left: 50%; /* Abstand zu rechtem Rand des Elternelements *  
+                                background-color: #E91E63;             
+ }
+ */
+  .padding {
+      padding: 20px;
+  }
+  #position {
+      position: relative;
+  }
+  .hide {
+      display: none;
+  }
+  header p {
+      position: relative;
+      padding-top: 75px;
+      padding-left: 55%;
+      padding: 5px 0;
+  }
