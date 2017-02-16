@@ -1,6 +1,7 @@
 #layout {
     position: relative;
 }
+
 #layout nav {
     position: absolute;
     top: 0;
@@ -11,8 +12,33 @@
     margin: 0;
     background-color: deeppink;
 }
+
 #layout main {
     padding: 20px;
     border: 1px solid black;
-    margin: 262px;
+    margin-left: 302px;
 }
+/*
+#layout {
+    position: relative;
+}
+#layout.side {
+    position: absolute;
+    top: 0;
+    width: 20%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0;
+}
+#layout main {
+    padding: 20px;
+    border: 1px thick black;
+    margin: 0 262px 20px 262px;
+    min-height: 200px;
+}
+layout nav {
+    left: 0;
+}
+layout aside {
+    right: 0;
+}*/
