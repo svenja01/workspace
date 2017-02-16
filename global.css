@@ -31,3 +31,19 @@ a {
 * {
     box-sizing: border-box;
 }
+.clearing {
+    clear: both;
+}
+.separator {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+}
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.row {
+    display: table-row;
+}

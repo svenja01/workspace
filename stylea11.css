@@ -9,6 +9,8 @@ section#container {
     margin-right: auto;
     margin-bottom: 10px;
     margin-left: auto;
+    padding: 20px;
+    
 }
 address {
 						    text-align: center; /* Text zentrieren */
@@ -123,10 +125,88 @@ div#inlineblock {
   }
  
   header p {
-      position: absolute;
-      padding-top: 50px;
-      padding-right: 25px;
+      position: relative;
+      margin-top: 75px;
+      margin-left: 55%;
+      margin-bottom: 20px;
       padding: 5px 0;
       background-color: white;
       color: deeppink;
+  }
+  #header p {
+      position: absolute;
+      margin-top: 50px;
+      margin-right: 25px;
+      padding: 5px 0;
+  }
+  header p span {
+      color: #d90000;
+      text-align: center;
+      display: block;
+  }
+  .floatright {
+      float: right;
+      border: 1px solid black;
+      margin: 0 0 0 15px;
+      height: auto;
+  }
+  .mw400 {
+      max-width: 400px;
+  }
+  .bildlinks {
+      float: left;
+      padding: 3px;
+      border: 5px solid #ccc;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+  }
+  .bildrechts {
+      float: right;
+      padding: 3px;
+      border: 5px solid #ccc;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+  }
+  #float {
+      min-height: 150px;
+  }
+  #float div {
+      width: 20%;
+      height: 24px;
+      background-color: #9C27B0;
+      border: 3px solid #ecf7dd;
+      margin: 15px 0;
+      border-radius: 10px;
+      color: white;
+      float: right;
+  }
+  div p {
+      display: table-cell;
+      width: 25%;
+      padding: 3em;
+      color: white;
+  }
+  #layout nav {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 20%;
+      padding: 20px;
+      border: 1px solid black;
+      margin: 0;
+  }
+  #layout main {
+      padding: 20px;
+      border: 1px solid black;
+      margin-left: 262px;
+  }
+  .layout {
+      margin-right: 200px;
+
   }
