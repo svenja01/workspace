@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans');
+
+body > header > nav > ul {
+    display: flex;
+    list-style-type: none;
+    background-color: deeppink;
+    color: white;
+    font-family: 'Barrio', cursive;
+    font-size: 20px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+nav {
+    background-color: lightcyan;
+    padding: 1px;
+     margin: 0 15px;
+}
+body > header > nav > ul > li {
+   
+    padding: 9px;
+    text-align: center;
+    border: 1px solid white;
+}
+#vorlage {
+    background-color: black;
+}
+.navbar {
+    flex-grow: 3;
+}
+/*um Menu umzustrukturieren*/
+.fxo1 {order: 1;}
+.fxo2 {order: 2;}
+.fxo3 {order: 3;}
+.fxo4 {order: 4;}
+/**/
+@media screen and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    body > header > nav > ul
+ }
+
+
