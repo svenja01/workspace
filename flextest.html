@@ -50,16 +50,36 @@
         </div>
         <div>
             <label for="hobbx">Hobby</label>
-            <input type="text" name="hobby" placeholder="Hobby">
+            
+                <select title="Hobby">
+                    <option>Schwimmen</option>
+                    <option>Fussball</option>
+                </select>
         </div>
+
+        <div>
+            <label for="gender" class="label">Geschlecht</label><br>
+            <input type="radio" name="gender" value="male" checked> Male <br>
+            <input type="radio" name="gender" value="female"> female <br>
+            <input type="radio" name="gender" value="other"> other <br>
+        </div>
+
+        <div>
+            <label for="gender" class="label">Geschlecht</label><br>
+            <input type="checkbox" name="gender" value="male" checked> Male <br>
+            <input type="checkbox" name="gender" value="female"> female <br>
+            <input type="checkbox" name="gender" value="other"> other <br>
+        </div>
+
         <div>
             <label for="email">EMail</label>
             <input type="email" name="email" placeholder="EMail">
         </div>
         <div>
             <label for="plz">Postleihzahl</label>
-            <input type="number" name="plz" step="1" min="1000" max="9999" placeholder="Postleihzahl"> <!--STEP, TYPE: COLOR, FILE -->
+            <input type="number" name="plz" step="1" min="1000" max="9999" placeholder="Postleihzahl"> <!--STEP, TYPE: COLOR, FILE, radio, checkbox, textarea-->
         </div>
+
         <div>
             <label for=""></label>
             <input type="SUBMIT" name="SUBMIT">

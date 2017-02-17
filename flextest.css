@@ -55,7 +55,7 @@ form > div > label {
     display: inline-block;
     width: 40%;
 }
-form > div > input {
+form > div > input, form > div > select {
     display: inline-block;
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
@@ -70,4 +70,7 @@ form > div > input[type="submit"]{
     color: white;
     border: 0;
     
+}
+.label {
+    display: block;
 }
