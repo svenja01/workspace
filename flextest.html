@@ -37,22 +37,32 @@
         <form>
             
         <div>
-            <input type="text" name="name" placeholder="Nachname">
+            <label for="name">Nachname</label>
+            <input type="text" name="name" placeholder="Nachname" required>
         </div>
         <div>
-            <input type="text" name="vorname" placeholder="Vorname">
+            <label for="vorname">Vorname</label>
+            <input type="text" name="vorname" placeholder="Vorname" required>
         </div>
         <div>
-            <input type="number" name="jahrgang" placeholder="Jahrgang">
+            <label for="geburtsdatum">Geburtsdatum</label>
+            <input type="number" name="geburtsdatum" placeholder="Geburtsdatum">
         </div>
         <div>
+            <label for="hobbx">Hobby</label>
             <input type="text" name="hobby" placeholder="Hobby">
         </div>
         <div>
-            <input type="text" name="wohnort" placeholder="Wohnort">
+            <label for="email">EMail</label>
+            <input type="email" name="email" placeholder="EMail">
         </div>
         <div>
-            <input type="number" name="plz" placeholder="Postleihzahl">
+            <label for="plz">Postleihzahl</label>
+            <input type="number" name="plz" step="1" min="1000" max="9999" placeholder="Postleihzahl"> <!--STEP, TYPE: COLOR, FILE -->
+        </div>
+        <div>
+            <label for=""></label>
+            <input type="SUBMIT" name="SUBMIT">
         </div>
 
         </form>
