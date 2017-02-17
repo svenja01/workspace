@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans');
+body > header > nav > ul {
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+nav {
+    background-color: lightcyan;
+    padding: 1px;
+     margin: 0 15px;
+     ;
+}
+nav > ul > li > a:hover, nav > ul > li > a:focus {
+    background-color: white;
+    color: black;
+}
+
+body > header > nav > ul > li {
+   
+    padding: 9px;
+    text-align: center;
+    border: 1px solid white;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: 'Barrio', cursive
+}
+body {
+    background-color: lightcyan;
+}
+#startseite {
+        position: relative;
+        height: auto;
+        background-color: white;
+}
+/*Formular*/
+form > div {
+    padding: 15px;
+}
+form > div > label {
+    display: inline-block;
+    width: 40%;
+}
+form > div > input, form > div > select {
+    display: inline-block;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    border: 0;
+    border: 1px solid lightgrey;
+}
+form > div > input[type="submit"]{
+    display: inline;
+    background-color: deeppink;
+    color: white;
+    border: 0;
+    
+}
+#startseite {
+    position: relative;
+    top: 50px;
+    height: auto;
+    margin: auto;
+    padding: 70px;
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Barrio', cursive;
+}
