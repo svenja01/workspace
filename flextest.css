@@ -39,5 +39,10 @@ body > header > nav > ul > li {
 and (max-device-width : 1024px)  {
     body > header > nav > ul
  }
-
+.displayflex{
+    display: flex;
+}
+.fx-columb {
+    flex-direction: column;
+}
 
