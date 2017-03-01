@@ -1,0 +1,46 @@
+* {
+    background-color: lightcyan;
+}
+
+nav {
+    padding: 1px;
+    margin: 0 15px;
+}
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    background-color: black;
+}
+nav > ul > li {
+    padding: 9px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+}
+nav > ul > li > a {
+    background-color: black;
+    color: white;
+}
+footer {  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   background-color: black;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.tf {
+    background-color: white;
+    color: black;
+    height: 35em;
+    padding: 0;
+    margin: 5%;
+    box-shadow: 10px -10px 42px -5px rgba(0,0,0,0.75);
+
+}
