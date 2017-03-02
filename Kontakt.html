@@ -8,6 +8,7 @@
     <link href="websitemockup.css" rel="stylesheet">
     <link href="global.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
+    <link href="formular.php" rel="skriptsource">
 </head>
 
 <body>
@@ -21,10 +22,48 @@
             </ul>
         </nav>
     </header>
-    <div class="tf">
 
-        
+    <div  class="tf">
+        <h1>Kontakt</h1>
+        <form action="formular.php" method="post">
+            <div class="padding">
+                <label  class "label" for="name">Nachname</label>
+                <input class "input" type="text" name="name" value="Nachname">
 
+            </div>
+            <div class="padding">
+                <label class "label" for="vorname">Vorname</label>
+                <input class "input" type="text" name="vorname" value="Vorname">
+            </div>
+            <div class="padding">
+                <label class "label" for="mail">E-Mail</label>
+                <input class "input" type="email" name="mail" value="E-Mail">
+            </div>
+            <div class="padding">
+                <label class "label" for="geburtsdatum">Geburtsdatum</label>
+                <input class "input" type="date" name="geburtsdatum" value="Geburtsdatum">
+            </div>
+            <div class="padding">
+                <label class "label" for="nachricht">Nachricht</label>
+                <input class "input" name="nachricht" value="Nachricht">
+            </div>
+             
+            <div>
+                <label for="buissness">Bestätigungsbrief</label>
+                <input type="radio" name="buissness" value="Ja">Ja <br>
+                <input type="radio" name="buissness" value="No">Nein <br>
+
+            </div>
+
+
+
+
+            <div class="padding">
+                <label class "label" for=""></label>
+                <input class "input" id="senden" name="SUBMIT" type="SUBMIT">
+            </div>
+            
+              </form>
     </div>
     <footer>
         <p>
