@@ -39,6 +39,7 @@
     DBeinschreiben($name,$vorname, $mail, $geburtsdatum, $nachricht);
     DBauslesen();
     DBschliessen();
+    Namesuchen($name);
 
 /*
     $name=$_POST['name'];
