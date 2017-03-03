@@ -8,6 +8,7 @@
     <link href="global.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
     <link href="formular.php" rel="skriptsource">
+    <link href="abfrage.php" rel="skriptsource">
 </head>
 
 <body>
