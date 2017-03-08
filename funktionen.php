@@ -7,21 +7,15 @@ function Fsenden($name,$vorname, $mail, $geburtsdatum, $nachricht){
     $mail=$_POST['mail'];
     $geburtsdatum=$_POST['geburtsdatum'];
     $nachricht=$_POST['nachricht'];
-
     echo "Guten Tag $vorname $name<br>";
-    echo "Vielen Dank für Ihre Mitteilung!<br><br>";
-} 
+    echo "Vielen Dank für Ihre Mitteilung!<br><br>";} 
 
 function DBerstellen(){
     global $datenbank;
-    $datenbank=new mysqli("localhost","svenja", "", "php");
-}
-
+    $datenbank=new mysqli("localhost","svenja", "", "php");}
 function DBeinschreiben ($name,$vorname, $mail, $geburtsdatum, $nachricht)
-{
-    global $datenbank;
+{global $datenbank;
 $stmt="insert into kontakt (Name, Vorname, Mail, Geburtsdatum, Nachricht) values ('$name','$vorname', '$mail', '$geburtsdatum', '$nachricht')";
-
 $datenbank->query($stmt);
 }
 
@@ -37,55 +31,41 @@ foreach($result as $rset){
     echo "<td>".$rset['Mail']."</td>";
     echo "<td>".$rset['Geburtsdatum']."</td>";
     echo "<td>".$rset['Nachricht']."</td>";
-    echo "</tr>";
-}
-echo "</table>";
-}
+    echo "</tr>";}
+echo "</table>";}
 
 function DBschliessen(){
     global $datenbank;
-    $datenbank->close();
-}
+    $datenbank->close();}
+
+//funktioniert nicht bis ...    
 function arrayAuslesen($name, $vorname){
     $array=array(
                 array(
                     'Vorname' => "David",
-                    'Nachname' => "Guetta",
-                    )
-                     );
+                    'Nachname' => "Guetta",));
 
         $array=array(                
                     array(
-                         'Vorname' => "Selena",
-                    'Nachname' => "Gomez",
-                    
+                         'Vorname' => "Selena",'Nachname' => "Gomez",
                     ));
                        $array=array(
+                    array('Vorname' => "Justin",'Nachname' => "Bieber", ));
+    print_r ( $array);}
+//hier
 
-                    array(
-                    'Vorname' => "Justin",
-                   
-                    'Nachname' => "Bieber",
-                    ));
-    print_r ( $array);
-    }
-    function erstellenArray()
-{
+ function erstellenArray(){
 $array=array(
-    array("David","Guetta", "071 255 15 48"),
-    array("Selena","Gomez", "071 546 35 21"),
-    array("Justin","Bieber", "071 277 48 51"),
-    array("Brittney","Spears", "071 549 48 79"),
-    array("David","Beckham", "071 269 38 24")
-);
- 
+    array('Vorname'=>"David",'Nachname'=>"Guetta", 'Telefon' =>"071 255 15 48"),
+    array('Vorname'=>"Selena","Gomez", "071 546 35 21"),
+    array('Vorname'=>"Justin","Bieber", "071 277 48 51"),
+    array('Vorname'=>"Brittney","Spears", "071 549 48 79"),
+    array('Vorname'=>"David","Beckham", "071 269 38 24"));
 echo "<table>";
 foreach($array as $value){
    echo "<tr>";
     echo "<tr>".$value[0]."</td>";
     echo "<tr>".$value[1]."</td>";
     echo "<tr>".$value[2]."</td> <br>";
-    echo "</tr>"; 
-} 
-}
+    echo "</tr>"; } }
 ?>
