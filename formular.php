@@ -36,12 +36,12 @@
 
     include_once('funktionen.php');
     echo "Alle Einträge:<br>";
+    Fsenden($name,$vorname, $mail, $geburtsdatum, $nachricht);
     DBerstellen();
     DBeinschreiben($name,$vorname, $mail, $geburtsdatum, $nachricht);
     DBauslesen();
     DBschliessen();
-    Namesuchen($name);
-
+    erstellenArray();
 /*
     $name=$_POST['name'];
     $vorname=$_POST['vorname'];
