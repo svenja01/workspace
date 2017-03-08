@@ -67,28 +67,25 @@ function arrayAuslesen($name, $vorname){
                    
                     'Nachname' => "Bieber",
                     ));
-   
-   
     print_r ( $array);
     }
     function erstellenArray()
 {
 $array=array(
-    array("David","Guetta"),
-    array("Selena","Gomez"),
-    array("Justin","Bieber"),
-    array("Brittney","Spears"),
-    array("David","Beckham")
+    array("David","Guetta", "071 255 15 48"),
+    array("Selena","Gomez", "071 546 35 21"),
+    array("Justin","Bieber", "071 277 48 51"),
+    array("Brittney","Spears", "071 549 48 79"),
+    array("David","Beckham", "071 269 38 24")
 );
  
 echo "<table>";
 foreach($array as $value){
    echo "<tr>";
     echo "<tr>".$value[0]."</td>";
-    echo "<tr>".$value[1]."</td> <br>";
+    echo "<tr>".$value[1]."</td>";
+    echo "<tr>".$value[2]."</td> <br>";
     echo "</tr>"; 
+} 
 }
- 
-}
-
 ?>
