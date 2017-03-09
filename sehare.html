@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+ 
+<head>
+    <meta charset="utf -8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Kontakt</title>
+    <link href="sehare.css" rel="stylesheet" type="text/css" />
+ 
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <header>
+        <img src="panorama.jpg" alt="landschaft" width="100%">
+    </header>
+ 
+    <nav>
+        <li><a href="#">Home</a></li>
+       
+    </nav>
+    <div class="contact">
+        <form action="formular.php" method="POST">
+            <fieldset id="feld">
+                <legend>Kontaktdaten:</legend>
+                <br> Vorname:
+                <br>
+                <input type="text" name="vorname" value="Hans"><br>Nachname:<br>
+                <input type="text" name="nachname" value="Mustermann"><br>E-Mailadresse<br>
+                <input type="email" name="email"><br>Automarke:<br>
+                <input type="text" name="marke"><br> 
+                
+            </select> <br>
+                <br>Nachricht: <br>
+                <textarea rows="4" cols="50" name="nachricht">
+            </textarea>
+ 
+                <br><br>
+                <input type="submit" value="Senden" name="submit">
+                <br><br>
+ 
+ 
+            </fieldset>
+        </form>
+        <div>
+ 
+        </div>
+        <form action="suchen.php" method="POST">
+            <fieldset id="feld">
+                <legend>Suchen:</legend>
+                 <br> Vorname:
+                 <br>
+                <input type="text" name="vorname" value="Hans">
+                <input type="submit" value="Suchen" name="suchen">
+            </fieldset>
+        </form>
+    </div>
+ 
+ 
+    <footer>
+        <p>Svenja Sutter</p>
+     
+    </footer>
+ 
+</body>
+ 
+</html>
