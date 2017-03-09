@@ -56,16 +56,19 @@ function arrayAuslesen($name, $vorname){
 
  function erstellenArray(){
 $array=array(
-    array('Vorname'=>"David",'Nachname'=>"Guetta", 'Telefon' =>"071 255 15 48"),
-    array('Vorname'=>"Selena","Gomez", "071 546 35 21"),
-    array('Vorname'=>"Justin","Bieber", "071 277 48 51"),
-    array('Vorname'=>"Brittney","Spears", "071 549 48 79"),
-    array('Vorname'=>"David","Beckham", "071 269 38 24"));
-echo "<table>";
+    array("David","Guetta","Telefon"=>"071 255 15 48", "Handy"=> "079 683 52 14"),
+    array("Selena","Gomez", "Telefon"=>"071 546 35 21","Handy"=> "079 683 52 14" ),
+    array("Justin","Bieber", "Telefon"=>"071 277 48 51", "Handy"=> "079 683 52 14"),
+    array("Brittney","Spears","Telefon"=> "071 549 48 79", "Handy"=> "079 683 52 14"),
+    array("David","Beckham", "Telefon"=>"071 269 38 24", "Handy"=> "079 683 52 14"));
+
+    echo "<table>";
+    echo"<tr><th>Vorname</th><th>Nachname</th><th>Telefon</th><th>Handy</th></tr>";
 foreach($array as $value){
    echo "<tr>";
-    echo "<tr>".$value[0]."</td>";
-    echo "<tr>".$value[1]."</td>";
-    echo "<tr>".$value[2]."</td> <br>";
+    echo "<td>".$value[0]."</td>";
+    echo "<td>".$value[1]."</td>";
+    echo "<td>".$value["Telefon"]."</td> <br>";
+    echo "<td>".$value["Handy"]."</td> <br>";
     echo "</tr>"; } }
 ?>

@@ -41,7 +41,8 @@
     DBeinschreiben($name,$vorname, $mail, $geburtsdatum, $nachricht);
     DBauslesen();
     DBschliessen();
-    erstellenArray();
+     erstellenArray();
+    
 /*
     $name=$_POST['name'];
     $vorname=$_POST['vorname'];
@@ -81,7 +82,6 @@ $datenbank->close();
             Svenja Sutter
         </p>
     </footer>
-
 </body>
 
 </html>
