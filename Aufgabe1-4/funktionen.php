@@ -54,7 +54,7 @@ function arrayAuslesen($name, $vorname){
     print_r ( $array);}
 //hier
 
- function erstellenArray(){
+function erstellenArray(){
 $array=array(
     array("David","Guetta","Telefon"=>"071 255 15 48", "Handy"=> "079 683 52 14"),
     array("Selena","Gomez", "Telefon"=>"071 546 35 21","Handy"=> "079 683 52 14" ),
