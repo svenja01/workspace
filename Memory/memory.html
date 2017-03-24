@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="memory.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+
+    </head>
+    <body>
+        <table id="tabelle">
+            <!-- Tabelle mit entsprechenden Bild in Zelle -->
+            <tr>
+                <td width="310" class="div" height="310" id="1"><img class="image" width="310" height="310" id="1i" src="twitter.png"></div></td>
+                <td width="310" class="div" height="310" id="2"><img class="image" width="310" height="310" id="2i" src="superman.png"></div></td>
+                <td width="310" class="div" height="310" id="3"><img class="image" width="310" height="310" id="3i" src="recycle.png"></div></td>
+                <td width="310" class="div" height="310" id="4"><img class="image" width="310" height="310" id="4i" src="wlan.png"></div></td>
+            </tr>
+            <tr>
+                <td width="310" class="div" height="310" id="5"><img class="image" width="310" height="310" id="5i" src="wlan.png"> </div></td>
+                <td width="310" class="div" height="310" id="6"><img class="image" width="310" height="310" id="6i" src="derek.png"></div></td>
+                <td width="310" class="div" height="310" id="7"><img class="image" width="310" height="310" id="7i" src="anarchy.png"></div></td>
+                <td width="310" class="div" height="310" id="8"><img class="image" width="310" height="310" id="8i" src="batman.png"></div></td>
+            </tr>
+            <tr>
+                <td width="310" class="div" height="310" id="9"><img class="image" width="310" height="310" id="9i" src="anarchy.png"></div></td>
+                <td width="310" class="div"height="310" id="10"><img class="image" width="310" height="310" id="10i" src="recycle.png"></div></td>
+                <td width="310" class="div"height="310" id="11"><img class="image" width="310" height="310" id="11i" src="superman.png"></div></td>
+                <td width="310" class="div"height="310" id="12"><img class="image" width="310" height="310" id="12i" src="at.png"></div></td>
+            </tr>
+            <tr>
+                <td width="310" class="div"height="310" id="13"><img class="image" width="310" height="310" id="13i" src="at.png"></div></td>
+                <td width="310" class="div"height="310" id="14"><img class="image" width="310" height="310" id="14i" src="batman.png"></div></td>
+                <td width="310" class="div"height="310" id="15"><img class="image" width="310" height="310" id="15i" src="derek.png"></div></td>
+                <td width="310" class="div"height="310" id="16"><img class="image" width="310" height="310" id="16i" src="twitter.png"></div></td>
+            </tr>
+        </table>
+        <!-- Bei Klick soll das Bild über die ID eingeblendet weden -->
+        <script>
+            $(".div").on("click", function(){
+                var id = $(this).attr('id');
+                $("#" + id + "i").fadeToggle();
+            });
+        </script>
+    
+    </body>
+</html>

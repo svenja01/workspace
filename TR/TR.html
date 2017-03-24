@@ -1,0 +1,56 @@
+<!--Bei meinem ersten Versuch bekam ich immer den Fehler NoN, welchen ich nicht beheben konnte, deshalb hat mir Sehare gezeit wie sie es gelöst hat.-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="TR.css" rel="stylesheet">
+    </head>
+    <body>
+        <form name="Rechner" action="" onSubmit="Ergebnis();return false;">
+        <table border="5" cellpadding="10" cellspacing="0">
+            <tr>
+                <td bgcolor="#C0C0C0">
+                    <input type="text" name="Display" align="right" class="display"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#E0E0E0">
+                    <table border="0" cellpadding="0" cellspacing="2">
+                        <tr>
+                            <td><input type="button" width="60" class="button" value="  7   " onClick="Hinzufuegen('7')"></td>
+                            <td><input type="button" width="60" class="button" value="  8   " onClick="Hinzufuegen('8')"></td>
+                            <td><input type="button" width="60" class="button" value="  9   " onClick="Hinzufuegen('9')"></td>
+                            <td><input type="button" width="60" class="button" value="  +   " onClick="Hinzufuegen('+')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" width="60" class="button" value="  4   " onClick="Hinzufuegen('4')"></td>
+                            <td><input type="button" width="60" class="button" value="  5   " onClick="Hinzufuegen('5')"></td>
+                            <td><input type="button" width="60" class="button" value="  6   " onClick="Hinzufuegen('6')"></td>
+                            <td><input type="button" width="60" class="button" value="  -   " onClick="Hinzufuegen('-')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" width="60" class="button" value="  1   " onClick="Hinzufuegen('1')"></td>
+                            <td><input type="button" width="60" class="button" value="  2   " onClick="Hinzufuegen('2')"></td>
+                            <td><input type="button" width="60" class="button" value="  3   " onClick="Hinzufuegen('3')"></td>
+                            <td><input type="button" width="60" class="button" value="  0   " onClick="Hinzufuegen('0')"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" width="60" class="button" value="  =   " onClick="Ergebnis()"></td>
+                            <td><input type="reset" width="60" class="button" value="  C  "></td>
+ 
+ 
+                        </tr>
+ 
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    
+    </body>
+    <script src="TR.js">
+        
+    </script>
+</html>

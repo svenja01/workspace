@@ -1,0 +1,12 @@
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 60px;
+    background-color: lightsalmon;
+}
+body{
+    margin: 5em;
+}
+.image{
+    display: none;
+}
